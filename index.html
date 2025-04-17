@@ -1,4 +1,4 @@
-"""<!DOCTYPE html> 
+<!DOCTYPE html> 
 
 <html lang="en"> 
 
@@ -24,9 +24,9 @@
 
     h2 { 
 
-      margin-top: 40px; 
+      color: #c0392b; 
 
-      color: #b22222; 
+      margin-top: 30px; 
 
     } 
 
@@ -49,8 +49,6 @@
 </head> 
 
 <body> 
-
- 
 
   <h1>Emergency Contact List</h1> 
 
@@ -140,11 +138,13 @@
 
  
 
-file_path = "/mnt/data/emergency_contacts_updated.html" 
+# Save to file for download 
 
-with open(file_path, "w", encoding="utf-8") as f: 
+file_path = "/mnt/data/index_updated.html" 
 
-    f.write(html_content) 
+with open(file_path, "w") as file: 
+
+    file.write(html_content) 
 
  
 
