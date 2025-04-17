@@ -6,7 +6,7 @@
 
   <meta charset="UTF-8"> 
 
-  <title>Emergency Contacts - Select To Call</title> 
+  <title>Emergency Contacts</title> 
 
   <style> 
 
@@ -52,32 +52,30 @@
 
   <h1>Emergency Contact List</h1> 
 
- 
+  <h2>Main External Rescue Agency</h2> 
+  <ul> 
+    <li><a href="tel:+60387769991">AOCC/AODM</a></li> 
+
+    <li><a href="tel:+60123043752">AOCC/AODM</a></li> 
+  </ul> 
 
   <h2>CAE Internal Emergency Contacts</h2> 
-
   <ul> 
-
-    <li><a href="tel:+60172828037">HotLine</a></li> 
+    <li><a href="tel:+60172828037 ">Hotline</a></li> 
     
     <li><a href="tel:+60199088519">General Manager</a></li> 
-
+    
     <li><a href="tel:+60122882799">Director of Training & Standard</a></li> 
 
     <li><a href="tel:+60176837570">Safety Manager</a></li> 
 
     <li><a href="tel:+60173009498">Facility Manager</a></li> 
 
-    <li><a href="tel:+60387778067">Security Post A</a></li> 
-
+    <li><a href="tel:+60387778067">Security Post A</a></li>
   </ul> 
 
- 
-
   <h2>SANTAN Internal Emergency Contacts</h2> 
-
   <ul> 
-
     <li><a href="tel:+60163244006">Head of Department</a></li> 
 
     <li><a href="tel:+60196005001">Operations Manager</a></li> 
@@ -85,15 +83,10 @@
     <li><a href="tel:+60127778440">Security Manager</a></li> 
 
     <li><a href="tel:+60123420807">AirAsia Security</a></li> 
-
   </ul> 
 
- 
-
   <h2>External Hospital Emergency Contacts</h2> 
-
   <ul> 
-
     <li><a href="tel:+60383124200">Putrajaya Hospital</a></li> 
 
     <li><a href="tel:+6068500999">Aurelius Medical Centre</a></li> 
@@ -101,15 +94,11 @@
     <li><a href="tel:+6068505000">Aurelius Medical Centre</a></li> 
 
     <li><a href="tel:+6067684000">Seremban Hospital</a></li> 
-
   </ul> 
-
- 
 
   <h2>External Rescue Agency (Others)</h2> 
 
   <ul> 
-
     <li><a href="tel:+60387768953">AFRS (Watch Room)</a></li> 
 
     <li><a href="tel:+60387874970">BOMBA KLIA</a></li> 
@@ -140,14 +129,14 @@
 
  
 
-# Save to file for download 
+# Save updated file 
 
-file_path = "/mnt/data/index_updated.html" 
+updated_file_path = "/mnt/data/index_emergency_updated.html" 
 
-with open(file_path, "w") as file: 
+with open(updated_file_path, "w") as file: 
 
-    file.write(html_content) 
+    file.write(html_updated_content) 
 
  
 
-file_path 
+updated_file_path 
